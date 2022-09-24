@@ -110,7 +110,7 @@ if(10<5){
     console.log("es falso")
 }
 
-//if else if
+//Ejemplo de if else if
 let numeron1 = 10
 let numeron2 = 20
 let numeron3 = 3
