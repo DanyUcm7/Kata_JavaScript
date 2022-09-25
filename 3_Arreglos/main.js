@@ -47,3 +47,50 @@ console.log(frutas)
 //Metodo pop quita un elemento que esta al final
 frutas.pop()
 console.log(frutas) //Quito "manzana" :c
+
+
+//Si te piden una "funcion" donde necesites el ultimo elemento de un array
+
+let  verduras = ["lechuga", "aguacate", "elote"]
+
+let ultimoElemnto = verduras.pop()
+
+console.log(ultimoElemnto)
+
+//Metodo UNSHIFT sirve para añadir un nuevo elemento al principio de la lista
+
+let  verduras2 = ["lechuga", "aguacate", "elote"]
+
+verduras2.unshift("Papa")
+console.log(verduras2)
+
+//Metodo SPLIT va a crear un array a partir de un objeto iterable 
+//iterable  es el que se puede recorrer
+
+let listaSuper = "cebolla, cilantro, jitomate, calabaza"
+
+//Aqui en el parentesis de split coloco el elemento que separa los elementos del string del cual se va hacer un array en este caso una coma
+let listaSuperArray = listaSuper.split(",")
+
+console.log(listaSuperArray)
+
+//Metodo SLICE recibe 2 parametros: start y end
+//Aqui al ponerle en el parentesis de slice el 1 quiero decir que tome ese array desde el index 1
+
+let frutas3 = ["piña", "sandia", "kiwi", "mango"]
+let nuevaLista = frutas3.slice(1)
+
+console.log(nuevaLista) // toma los elementos desde el index 1 que es sandia
+
+//Ahora usando start y end los 2 a la vez
+let nuevaLista2 = frutas3.slice(1, 3) //el 1 es se toma desde sandia y el 3 es hasta uno antes de  mango  
+console.log(nuevaLista2)
+
+//Metodo SPLICE es para eliminar e insertar  elementos 
+//Este metodo no es muy usado por que es "peligroso" 
+let colores = ["azul", "rosa", "verde", "morado"]
+colores.splice(1, 2, "naranja") //toma el elemento 1 y 2 es decir rosa y verde y los remplaza por naranja
+
+console.log(colores)
+
+//Metodo SORT 
