@@ -93,4 +93,42 @@ colores.splice(1, 2, "naranja") //toma el elemento 1 y 2 es decir rosa y verde y
 
 console.log(colores)
 
-//Metodo SORT 
+//Metodo SORT me acomoda el array por orden alfabetico
+
+let paises = ["Irlanda", "España", "Francia", "Mexico"]
+paises.sort()
+
+console.log(paises)
+
+//Pero que pasa si es con numeros y no letras? aqui el ejemplo
+//Solo que en este se utiliza algo mas que es el CALLBACK, es una funcion dentro de otra funcion
+
+let numerosmetodo = ["1", "6", "8", "46", "5", "7", "100", "18"]
+//El a seria el current = actual y el b seria el next = siguiente
+//Entonces esta funcion recorre los elementos comparandolos para poder acomodarlos de menor a mayor
+//En este caso toma el primer elemento y lo compara con el segundo y asi y repite hasta acomodarlo todo
+let numerosSort = numerosmetodo.sort((a, b) => a - b)
+console.log(numerosSort)
+
+//Metodo REVERSE muta el array lo voltea 
+let spongebob = ["Patricio", "Bob", "Calamardo", "Gary"]
+spongebob.reverse()
+console.log(spongebob)
+
+//Metodo CONCAT es juntar o unir diferentes arrays NOTA: ya casi no se usa porque solo puede juntar 2 listas
+
+let personajesMarvel = ["Spiderman", "Wolverine", "Hulk"]
+let personajesMarvel2 = ["Iron man", "Capitan America", "Thor"]
+
+let listaPersonajesMarvel = personajesMarvel.concat(personajesMarvel2)
+
+console.log(listaPersonajesMarvel)
+
+//Este se usa mas actualmente:
+//Metodo OPERADOR = SPREAD OPERATOR ... es la clave, este  puede juntar mas arrays
+
+let personajesDC = ["Batman", "Superman"]
+
+let listaSuperHeroes = [...personajesMarvel, ...personajesMarvel2, ...personajesDC]
+console.log(listaSuperHeroes)
+ 
