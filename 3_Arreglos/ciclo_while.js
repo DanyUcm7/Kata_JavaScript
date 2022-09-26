@@ -23,14 +23,10 @@
 //Podemos decir que el do = has esto, y while = mientras se cumpla la condicion
 //Es casi lo mismo que el ciclo while solo agrega la parte de do
 
-let nuevoContador = 0
+// let nuevoContador = 0
 
-do{
-// Se ejecuta el codigo que eta aqui mientras el wwhile sea true
-nuevoContador = nuevoContador + 1
-console.log(nuevoContador)
-} while (nuevoContador < 5) 
-
-function myfun (){
-    
-}
+// do{
+// // Se ejecuta el codigo que eta aqui mientras el wwhile sea true
+// nuevoContador = nuevoContador + 1
+// console.log(nuevoContador)
+// } while (nuevoContador < 5) 
