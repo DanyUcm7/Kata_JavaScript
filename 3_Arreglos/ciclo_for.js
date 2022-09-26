@@ -20,7 +20,7 @@ let frutas =["uva", "sandia", "piña", "manzana"]
 
 //FOR OF de un array es mas abreviado
 //Este ejemplo da el mismo resultado que el anterior for
-
+//Nota: on el for of no tenemos acceso al index
 for (fruta of frutas){
     console.log(fruta)
 }
