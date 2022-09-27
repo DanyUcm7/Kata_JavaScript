@@ -69,18 +69,42 @@ function numeroMaximo (a, b){
 
 console.log(numeroMaximo(10, 9))
 console.log(numeroMaximo(1, 7))
+//Otra forma de solucionarlo tambien en esta forma podemos meter mas numeros (igual se puede hacer el Math.min)
+let numMax = Math.max(10, 8,)
 
-
-//  Hacer una función que calcule el IVA de una cantidad (16%)
+console.log(numMax)
 
 
 //  Hacer una función para ingresar cualquier letra del alfabeto  
-//  y verifique si es vocal o consonante
+//  y verifique si es vocal o consonante NOTA= tengo esta funcion en Runkit
+
+function verificarLetra(letra){
+   let vocales = ["a", "e", "i", "o", "u"]
+//El toLowerCase es para si ingresamos una letra mayuscula la convierta a minuscula,  sirve para que la funcion sirva
+//toLowerCase si yo ingreso una mayuscula el resultado no va a ser en minuscula solo es para el funcionamiento del codigo
+let letraMinuscula = letra.toLowerCase()
+//El .includes sirve para que solo se tome en cuenta lo que hay en el array
+if (vocales.includes(letraMinuscula)){
+  return `La letra ${letra} es una vocal` //Aqui Usamos concatenacion com Template string
+} else {
+    return `La letra ${letra} es una consonante`
+}
+
+}
+
+console.log(verificarLetra("a")) //Rectificar que el console.log es para poder ver en consola pero no es necesario
 
 //  Hacer una función que verifique si un número es positivo o negativo
 
+function verificarNumero(a){
+if (a < 0){
+   return `${a} es negativo`
+} else {
+    return `${a} es positivo`
+}
 
-//  Hacer una función que halle la suma de todos los números naturales entre 1 y n
+}
+console.log(verificarNumero(10))
 
 
 //  Hacer una función que imprima una pirámide de asteriscos como la siguiente:
