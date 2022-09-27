@@ -75,7 +75,7 @@ let listaSuperArray = listaSuper.split(",")
 console.log(listaSuperArray)
 
 //Metodo SLICE recibe 2 parametros: start y end
-//Aqui al ponerle en el parentesis de slice el 1 quiero decir que tome ese array desde el index 1
+//Aqui al ponerle en el parentesis de slice el 1 quiere decir que tome ese array desde el index 1
 
 let frutas3 = ["piña", "sandia", "kiwi", "mango"]
 let nuevaLista = frutas3.slice(1)
