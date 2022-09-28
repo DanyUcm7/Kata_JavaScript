@@ -1,3 +1,4 @@
+// EJERCICIOS  de funciones
 // Paco hizo travesuras en el salón y la maestra lo castigó, para poder salir tiene escribir en el pizarrón todos los números pares  del 1 al 100, ¿puedes ayudarle a Paco a hacer un algoritmo que haga esto por el?
 
 // function numerosPares(){
@@ -105,32 +106,3 @@ if (a < 0){
 
 }
 console.log(verificarNumero(10))
-
-
-//  Hacer una función que imprima una pirámide de asteriscos como la siguiente:
-
-// '*'
-// '**'
-// '***'
-// '****'
-// '*****'
-// '******'
-// '*******'
-// '********'
-
-// EXTRA pasando una altura a la funcion crea la piramide segun ese alto: 
-
-// //              0        *        vuelta * 2 + 1
-// //              1       ***
-// //              2      *****
-// //              3     *******
-// //              4    *********
-
-
-
-// Crea un programa que pregunte al usuario un número. Usando el archivo de arreglo de Pokémons, mostrar solo los nombres de los Pokémons cuyos números que son múltiplos de 5 desde 1 hasta el número introducido por el usuario. 
-// https://pastebin.com/Zzk8g7Z6
-
-
-
-// Crea un programa que recorra el arreglo [4,”dos”,8,”tres”,5,9,1,”cero”] y muestre en consola solo los elementos que son tipo número.
